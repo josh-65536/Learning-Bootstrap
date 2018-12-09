@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>03-TextStyles</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <br />
+        <p>You can <mark>highlight</mark> words or text using the mark tags.</p>
+
+        <p>You can <abbr title="abbreviation">abbr.</abbr> words or text using the abbr tags.</p>
+
+        <blockquote class="blockquote">
+            Sometimes I wet the bed, on purpose.
+            <footer class="blockquote-footer">Bucky</footer>
+        </blockquote>
+
+        <h4>Things to do when you're bored:</h4>
+        <dl>
+            <dt>Indoors</dt>
+                <dd>- take a nap</dd>
+                <dd>- watch Netflix for 8 hours</dd>
+            <dt>Outdoors</dt>
+                <dd>- go back inside</dd>
+        </dl>
+
+        <p><code>printf("Hello World!\n");</code></p>
+
+        <h4>For multi-line code, use the <code>pre</code> tags.</h4>
+        <pre>
+#include &lt;stdio.h&gt;
+
+int main(int argc, char **argv) {
+    printf("Hello World!\n");
+    return 0;
+}
+        </pre>
+
+        <p><kbd>Ctrl+Shift+N</kbd> is a keyboard shortcut for creating new folders.</p>
+
+        <p class="text-muted">Muted text.</p>
+        <p class="text-success">Congrats, you filled out that form correctly!</p>
+        <p class="text-danger">Stranger danger.</p>
+
+        <p class="bg-success">Congrats, you filled out that form correctly!</p>
+        <p class="bg-danger">Stranger danger.</p>
+    </div>
+
+</body>
+</html>
